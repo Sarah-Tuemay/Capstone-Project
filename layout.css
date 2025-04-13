@@ -92,8 +92,8 @@ header {
     width: 300px; 
     padding: 10px; 
     color: var(--vtext);
-    background-color: hsl(0, 0%, 4%);
-    text-align: center; 
+    background-color: hsl(0, 0%, 17%);
+    text-align: start; 
 }
 
 .content img {
