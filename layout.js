@@ -60,7 +60,7 @@ async function fetchDAta() {
         let errorContent = document.createElement("h1"); 
 
         errorDiv.classList.add("errorDiv");
-        errorEmoji.src = "assets\\Teary_Eyed-removebg-preview.png";
+        errorEmoji.src = "assets\\sad sticker for error.gif";
         errorEmoji.classList.add("errorEmoji");    
         errorContent.innerText = `O...O Sorry mate i think you have entered the wrong title try again!!`;
         errorContent.classList.add("errorContent");
