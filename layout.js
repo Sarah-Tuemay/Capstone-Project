@@ -1,4 +1,3 @@
-console.log('working');
 const movieTitle = document.querySelector(".movieTitle");
 const searchingButton = document.querySelector(".searchingButton");
 const bigContainer = document.querySelector(".bigConatiner");
