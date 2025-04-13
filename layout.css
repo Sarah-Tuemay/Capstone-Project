@@ -89,7 +89,7 @@ header {
 
 .content {
     margin: 20px; 
-    width: 300px; 
+    width: 400px; 
     padding: 10px; 
     color: var(--vtext);
     background-color: hsl(0, 0%, 17%);
