@@ -5,6 +5,7 @@
     --vfont:"Dancing Script", cursive;
     --vdetail: "EB Garamond", serif;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +18,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     height: 100px;
     width: 100%;
@@ -28,6 +30,7 @@ header {
     font-family: var(--vfont);
     padding-top: 20px;
 }
+
 
 .nav-bar{
     padding-top: 50px;
@@ -89,21 +92,25 @@ header {
 
 .content {
     margin: 20px; 
-    width: 400px; 
+    width: 300px; 
     padding: 10px; 
     color: var(--vtext);
-    background-color: hsl(0, 0%, 17%);
-    text-align: start; 
+    background-color: hsl(0, 0%, 4%);
+    text-align: center; 
 }
 
 .content img {
     width: 100%; 
     height: auto; 
-    border-radius: 10px; 
+    border-radius: 10px;
+    cursor: pointer; 
 }
 
 .content p {
     padding: 5px;
+}
+.justTry {
+    cursor: pointer;
 }
 
 .content p b {
@@ -125,6 +132,10 @@ header {
     margin-left: 10%;
 }
 
+.home, .trending ,.nowPlaying{
+    cursor: pointer;
+}
+
 footer {
     background-color: var(--vheader); 
     color: var(--vtext);
@@ -138,6 +149,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; 
+}
+
+.heading{
+    text-align: center;
+    color: var(--vtext);
+    font-family: var(--vfont);
 }
 /* 
 
@@ -161,4 +178,3 @@ footer {
     padding: 2px;
    
 }
-
