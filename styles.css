@@ -27,18 +27,6 @@ header {
     font-size: 2em;
     font-family: var(--vfont);
 
-.home,
-.trending,
-.nowPlaying {
-    cursor: pointer;
-    font-size: 1.5rem;
-}
-
-.home:hover,
-.trending:hover,
-.nowPlaying:hover {
-    color: hsla(180, 70%, 41%, 0.596);
-}
     /* padding-top: 20px; */
 }
 .heading {
@@ -62,10 +50,14 @@ header {
     margin-top: 10px;
 }
 .nav-bar ul .a{
+   cursor: pointer;
     text-decoration: none;
     color: var(--vtext);
     /* font-size: 3em; */
     text-align: end;
+}
+.nav-bar ul .a:hover{
+    color: hsla(180, 70%, 41%, 0.596);
 }
 .closeButton {
     background-color: gray;
