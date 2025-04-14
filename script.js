@@ -1,4 +1,3 @@
-
 // 🔹 DOM Elements
 const movieTitle = document.querySelector(".movieTitle");
 
@@ -124,6 +123,7 @@ async function fetchData(url) {
             overview.innerHTML = `<b>Over View: </b> ${data.results[i].overview}`;
             releaseDate.innerHTML = `<b>Release Date: </b> ${data.results[i].release_date}`;
 
+
             movieDetails.style.display = "none";
 
             // 🔸 Show details on image click
@@ -158,6 +158,7 @@ async function fetchData(url) {
         
             errorDiv.classList.add("errorDiv");
             errorEmoji.src = "assets/sad_emoji.png";
+            errorEmoji.alt = "a sad emoji"; 
             errorEmoji.classList.add("errorEmoji");
             errorContent.classList.add("errorContent");
         
@@ -172,5 +173,12 @@ async function fetchData(url) {
 
 fetchTopRated(); // 🔹 Initial Load
 
+const menu = document.querySelector('.fa-solid.fa-bars.fa-lg');
+let link = document.querySelector('.link'); 
+let linkk = document.querySelector('ul'); 
 
-
+menu.addEventListener('click', () => {
+        menu.style.display='none'; 
+        link.classList.add('links');  
+        linkk.classList.remove('ul');
+});
