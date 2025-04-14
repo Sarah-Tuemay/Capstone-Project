@@ -1,57 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./assets/fevicon.jpg">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=IBM+Plex+Serif:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Movie Mates</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/fevicon.jpg">
+    <link rel="stylesheet" href="layout32.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movie mates</title>
+
 </head>
 <body>
+    <header>
+        <div class="left-side">
+            <img src="./assets/logo-removebg-preview.png" alt="logo" class="logo">
+            <h1 class="header">Movie Mates</h1>
+        </div>
+        
+        <nav class="nav-bar">
+            <i class="fa-solid fa-bars fa-lg" style="color: #fcfcfc;"></i>
+            <div class="link">
+                <span class="closeButton"></span>
+                <ul class="ul">
+                    <li class="home"><span class="a">Home</li>
+                    <li class="trending"><span class="a">Trending</li>
+                    <li class="nowPlaying"><span class="a">Now Playing</li>
+                    <!-- <li class="justTry"><button>Now Playing</button></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-  <!-- Header -->
-  <header>
-    <img src="./assets/logo-removebg-preview.png" alt="logo" class="logo">
-    <h1 class="header">Movie Mates</h1>
-    <nav class="nav-bar">
-      <ul>
-        <li class="home">Home</li>
-        <li class="trending">Trending</li>
-        <li class="nowPlaying">Now Playing</li>
-      </ul>
-    </nav>
-  </header>
+    <br>
 
-  <!-- Search Area -->
-  <div class="searchArea">
-    <input type="text" class="movieTitle" placeholder="  Search a movie 🎝">
-    <i class="fa-solid fa-magnifying-glass fa-5xs searchingButton" style="color: #fff8db;"></i>
-  </div>
-
-  <!-- Slogan -->
-  <h1 class="slogan">Movie Mates Because Every Movie Night Deserves the Right Mate.</h1>
-
-  <!-- Dynamic Content -->
-  <h1 class="heading"></h1>
-  <div class="bigConatiner"></div>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footerC">
-      <h3>Movie Mates</h3>
-      <div class="socials"> 
-        <a href="https://www.instagram.com/latesttrailers4u/"><i class="fa-brands fa-instagram fa-3xl"></i></a>
-        <a href="https://x.com/DiscussingFilm"><i class="fa-brands fa-twitter fa-3xl"></i></a>
-        <a href="https://youtu.be/KS0XacjMmOc?si=6xFCFM4k_GveIzU7"><i class="fa-brands fa-youtube fa-3xl"></i></a>
-        <a href="https://www.tiktok.com/@latesttrailers4u/video/7445039227798048022?is_from_webapp=1&sender_device=pc&web_id=7471343704575084087"><i class="fa-brands fa-tiktok fa-3xl"></i></a>
-        <p>&copy; 2023 All rights reserved.</p>
-      </div>
+    <div class="searchArea">
+        <input type="text" name="" class="movieTitle" placeholder="  Search a movie 📽">
+        <i class="fa-solid fa-magnifying-glass fa-5xs searchingButton" style="color: #fff8db;"></i>
     </div>
-  </footer>
+    <h1 class="slogan">Movie Mates Because Every Movie Night Deserves the Right Mate.</h1>
 
-  <!-- JavaScript -->
-  <script src="./script.js"></script>
+    <br>
+
+    <h1 class="heading">Top-rated Movies</h1>
+
+    <div class="bigConatiner">
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br> 
+
+   
+    <footer>
+        <div class="footerC">
+            <h3>Movie Mates</h3>
+            <div class="socials"> 
+                <a href="https://www.instagram.com/latesttrailers4u/"> 
+                    <i class="fa-brands fa-instagram fa-3xl"></i>
+                </a>
+                <a href="https://x.com/DiscussingFilm">
+                    <i class="fa-brands fa-twitter fa-3xl"></i> 
+                </a>
+                <a href="https://youtu.be/KS0XacjMmOc?si=6xFCFM4k_GveIzU7">
+                    <i class="fa-brands fa-youtube fa-3xl"></i>
+                </a>
+                <a href="https://www.tiktok.com/@latesttrailers4u/video/7445039227798048022?is_from_webapp=1&sender_device=pc&web_id=7471343704575084087"> 
+                    <i class="fa-brands fa-tiktok fa-3xl"></i>
+                </a>
+                <p>&copy; 2023 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/043db4560d.js" crossorigin="anonymous"></script>
+    <script src="./trial.js"></script>
 </body>
 </html>
