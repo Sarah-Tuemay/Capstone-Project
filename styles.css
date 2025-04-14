@@ -1,0 +1,221 @@
+/* 
+   Root Variables
+*/
+   :root {
+    --vbold: hwb(180 23% 72%);
+    --vtext: rgb(255, 248, 219);
+    --vheader: hwb(180 8% 87%);
+    --vfont: "Playfair Display", serif;
+    --vdetail: "IBM Plex Serif", serif;
+}
+
+/* 
+   Global Reset
+    */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--vbold);
+}
+
+/* =========================
+   Header Section
+   ========================= */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: var(--vheader);
+}
+
+.header {
+    color: var(--vtext);
+    font-size: 3rem;
+    font-family: var(--vfont);
+    padding-top: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* =========================
+   Navigation Bar
+   ========================= */
+.nav-bar {
+    padding-top: 50px;
+    padding-left: 35%;
+}
+
+.nav-bar li {
+    display: inline;
+    padding-left: 30px;
+    color: var(--vtext);
+}
+
+.nav-bar ul a {
+    text-decoration: none;
+    color: var(--vtext);
+    font-size: 1.3rem;
+}
+
+/* =========================
+   Search Area
+   ========================= */
+.searchArea {
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 700px;
+    background-color: var(--vheader);
+    border: 1px solid var(--vtext);
+    border-radius: 20px;
+}
+
+.searchArea input {
+    width: 90%;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.searchingButton {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+/* =========================
+   Slogan
+   ========================= */
+.slogan {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-left: 15%;
+    font-family: var(--vfont);
+    color: var(--vtext);
+}
+
+/* =========================
+   Content Display
+   ========================= */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.content {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(0, 0%, 4%);
+    color: var(--vtext);
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content p {
+    padding: 5px;
+}
+
+.content p b {
+    color: aqua;
+    font: 1em sans-serif;
+}
+
+.heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--vtext);
+    font-family: var(--vfont);
+    border-bottom: 1px solid rgb(106, 169, 156);
+    border-top: 1px solid rgb(24, 69, 59);
+    font-family: var(--vheader);
+    
+}
+/* =========================
+   Error Handling
+   ========================= */
+.errorDiv {
+    font-family: var(--vfont);
+    font-size: 1.2rem;
+    color: var(--vtext);
+    margin-bottom: 80px;
+}
+
+.errorEmoji {
+    width: 120px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.errorContent {
+    margin-left: 10%;
+}
+
+/* =========================
+   Interactive States
+   ========================= */
+.home,
+.trending,
+.nowPlaying {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.home:hover,
+.trending:hover,
+.nowPlaying:hover {
+    color: hsla(180, 70%, 41%, 0.596);
+}
+
+/* =========================
+   Footer
+   ========================= */
+footer {
+    background-color: var(--vheader);
+    color: var(--vtext);
+    padding: 40px;
+    font-family: var(--vdetail);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.footerC h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerC .socials a {
+    text-decoration: none;
+    color: var(--vtext);
+    font-size: 1.3rem;
+    margin-left: 20px;
+    padding: 2px;
+}
+
+
+
+
+
