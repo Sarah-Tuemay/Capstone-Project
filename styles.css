@@ -168,20 +168,6 @@ footer {
     color: var(--vtext);
     font-family: var(--vfont);
 }
-/* 
-
-.toggle-button {
-    background-color: transparent;
-    border: none;
-    color: var(--vtext);
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin-left: 10px;
-}
-.description {
-    display: none;
-    margin-top: 10px; 
-} */
 .footerC .socials a {
     text-decoration: none;
     color: var(--vtext);
